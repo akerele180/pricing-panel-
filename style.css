@@ -77,3 +77,30 @@ img {
   width: 90%;
   padding: 15px 3px;
 }
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+  div.container {
+    border-radius: 5px !important;
+    align-items: center;
+  }
+  .d-md-flex {
+    gap: 10px;
+  }
+  li {
+    font-size: 15px !important;
+  }
+  span {
+    font-size: 28px !important;
+  }
+  .btn {
+    padding: 2% !important;
+    font-size: 18px !important;
+    margin-top: 5px!important
+  }
+  img {
+    width: 50% !important;
+  }
+}
